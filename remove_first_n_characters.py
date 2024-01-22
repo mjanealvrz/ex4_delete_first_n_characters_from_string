@@ -15,6 +15,6 @@ def song (user, characters):
     return user[characters+1: ]
 
 # Call the function and store result
-
+new_song_title = (user, characters)
 
 # Print the new song title
