@@ -4,7 +4,7 @@
 # Pseudocode
 
 # Ask user to input song title
-
+user = input("Input a song title: ")
 # Ask user the numbers to be removed
 
 
