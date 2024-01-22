@@ -5,8 +5,9 @@
 
 # Ask user to input song title
 user = input("Input a song title: ")
-# Ask user the numbers to be removed
 
+# Ask user the numbers to be removed
+characters = int(input("How many characters you want to remove? "))
 
 # Create function to execute the removing of characters
 
