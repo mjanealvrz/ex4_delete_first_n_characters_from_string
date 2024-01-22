@@ -4,17 +4,18 @@
 # Pseudocode
 
 # Ask user to input song title
-user = input("Input a song title: ")
+user = input("Input song title: ")
 
 # Ask user the numbers to be removed
-characters = int(input("How many characters you want to remove? "))
+characters = int(input("How many characters to be removed? "))
 
 # Create function to execute the removing of characters
-def song (user, characters):
-    # Return new string
-    return user[characters+1: ]
+def song(user, characters):
+    # Return the new string
+    return user[characters+1:]
 
 # Call the function and store result
-new_song_title = (user, characters)
+song_title = song(user, characters)
 
 # Print the new song title
+print("New Song Title:  ", song_title)
